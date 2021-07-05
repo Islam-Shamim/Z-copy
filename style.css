@@ -1,0 +1,59 @@
+body{
+  background-image: url(top-banner.png);
+  background-repeat: no-repeat;
+  margin:0;
+}
+h1{
+    font-size: 80px;
+}
+h2{
+    font-size: 50px;
+}
+p{
+    text-align: justify;
+}
+section{
+    display: flex;
+}
+.half{
+    width: 50%;
+    padding: 20px;
+}
+.half img{
+    width: 70%;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,red);
+    font-weight: 700;
+    color: white;
+    padding:10px 40px
+}
+.dream-big{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.about{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left ;
+}
+.developer{
+    box-shadow: 10px 10px 40px gray;
+    margin-left:20px;
+    padding:10px;
+    border-radius:10px;
+    border-left:
+}
+#web{
+    border-left: 5px solid;
+    border-image: linear-gradient(yellow,green);
+    border-image-slice: 1;
+}
+#hard{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
